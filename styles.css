@@ -1,0 +1,154 @@
+
+body{
+background-color: #394651 ;
+}
+.headpage{
+display: block;
+align-items: center;
+}
+#logo{
+  margin-left: 500px;
+}
+h1{
+text-align: center;
+padding-left: 30px;
+padding-top: 10PX;
+padding-bottom: 10px;
+color:white;
+}
+h2{
+  padding-top: 10px;
+  color: white;
+}
+p{
+  color:white;
+}
+a{
+  color: white;
+  text-decoration: None;
+}
+li a:hover{
+
+ text-decoration: underline;
+
+}
+th:hover{
+  background-color:#384148;
+}
+td:hover{
+  background-color:#384148;
+}
+.menu{
+  display: inline-block;
+  padding-left: 60px;
+  padding-right: 50px;
+  border-right: 2px solid white;
+}
+#inicio{
+  display: inline-block;
+  padding-left: 60px;
+  padding-right: 50px;
+  border-right: 2px solid white
+}
+#final{
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 60px;
+}
+.parrafos{
+  display: inline-flex;
+}
+.cards{
+  background-color:#2D363D ;
+  text-align: center;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-left: 70px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  max-width: 340px;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+.cards:hover{
+  background-color: #394651;
+  border: 2px solid black;
+}
+.tabla{
+  background-color: #2D363D ;
+display: flex;
+justify-content: center;
+color: white;
+text-align: center;
+padding: 1px;
+}
+.centrar{
+text-align: center;
+}
+#for{
+  margin-top: 40px;
+text-align: center;
+}
+.formulario{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+color: white;
+}
+#form{
+background-color: #2D363D ;
+padding: 2px;
+border:2px solid gray;
+border-radius: 4px;
+}
+
+.infoperso{
+  width: 90%;
+ border: 1px solid gray;
+border-radius: 4px;
+  margin-bottom: 5px;
+  color:white;
+  background-color: transparent;
+  border-bottom: 2px solid gray;
+}
+.infoperso:focus {
+  border: 1px solid white;
+}
+.info{
+display: inline-flex;
+justify-content: center;
+}
+.infocard{
+  border: 1px solid gray;
+}
+.enviar{
+border-top: 3px solid gray;
+display: flex;
+background-color: transparent;
+justify-content: center;
+}
+.enviar:hover{
+  cursor: pointer;
+  background-color:#394651;
+
+}
+.imagenes{
+  display: flex;
+  justify-content: center;
+}
+.subimagen{
+  display: block;
+}
+#subprimero{
+  margin-right:80px;
+}
+#subsegundo{
+  margin-left: 80px;
+}
+.img{
+  padding: 1px;
+  border:2px solid gray;
+  border-radius: 4px;
+}.img:hover{
+    border:2px solid black;
+}
